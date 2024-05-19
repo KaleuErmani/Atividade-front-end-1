@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.coluna-lateral{
+    position: fixed;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    background-color: #000000e0;
+}
+
+.imagem-perfil {
+    width: 200px;
+    border-radius: 50%; 
+    border: 3px solid  #B8860B;
+}
+
+.navegação {
+    text-align: center;
+    margin-top: 70%;
+    margin-bottom: 50%;
+}
+
+.links {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+.links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.links li a:hover {
+    color: #B8860B;
+}
+
+.sobre, .conhecimentos, .objetivos {
+    padding: 10px;
+}
+
+.conteudo {
+    position: absolute;
+    left: 400px;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo {
+    margin-top: 300px;
+    margin-left: 70px;
+    font-size: 50px;
+}
+
+span {
+    color: #B8860B;
+}
+
+address {
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.descrição {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+p {
+    font-size: 30px;
+    font-family: sans;
+}
+
+.email {
+    text-decoration: none;
+    color: #B8860B;
+}
+
+.icons {
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.icones {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    transition: transform 0.2s;
+}
+
+.icones:hover {
+    transform: scale(1.2);
+}
+
+.lista-conhecimentos {
+     margin-top: 300px;
+     margin-left: 500px;
+}
+
+.lista {
+    font-size: 50px;
+    list-style-type: lower-alpha;
+    font-family: sans-serif;
+} 
+
+.lista-objetivos {
+    margin-top: 300px;
+    margin-left: 500px;
+    font-size: 24px;
+}
+
+.pessoais, .profissionais {
+   padding-bottom: 20px;
+}
+
+
